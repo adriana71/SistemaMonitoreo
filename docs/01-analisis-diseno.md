@@ -54,3 +54,20 @@ El objeto Tanque no puede funcionar si no existe un sensor
 El objeto Sensor no le interesa el estado del tanque o su capacidad, su trabajo es solo dar un dato. El objeto Tanque es
 quien debe realizar las operaciones de llenado, vaciado, etc.
 
+## 5 Diseño de clases
+
+| Clase | Atributos propuestos | Tipo de dato | Métodos propuestos      | Responsabilidad                                                                                          |
+|--|----------------------|--------------|-------------------------|----------------------------------------------------------------------------------------------------------|
+| Tanque | ID                   | Alfanumérico | Consultar información   | Devuelve información de capacidad, nivel actual, porcentaje de llenado, estado                           |
+|  | capacidadMaxima      | Numérico     | Llenar tanque           | Incrementa el nivel por una cantidad de lt tomando como inicio una lectura del nivel                     |
+|  | nivelActual          | Numérico     | Vaciar tanque           | Decrementa el nivel por una cantidad de lt tomando como inicio una lectura del nivel                     |
+|  | estado               | Numérico     | Detener operación       | Detiene el llenado o vaciado de un tanque, se llama hasta que llegue a un nivel o llegue a un porcentaje |
+|  |                      |              | Consultar nivel         | Devuelve el nivel del tanque, para hacerlo debe obtener la lectura del sensor                            |
+|  |                      |              | Consultar % de llenado  | Devuelve el % correspondiente al nivel actual del tanque                                                 |
+|  |                      |              | Consultar estado        | Devuelve el estado en el que esta el tanque (llenando, vaciando, detenido)                               |
+|  |                      |              | Obtener lectura sensor  | Solicita la lectura de un sensor                                                                         |
+| Sensor | ID                   | Alfanumérico | Consulta informacion    | Devuelve el ID de un sensor                                                                              |
+|  | lecturaActual        | Numerico     | Devuelve valor obtenido | Devuelve el nivel actual en lts del tanque                                                               |
+
+## 6 Diagrama UML
+
