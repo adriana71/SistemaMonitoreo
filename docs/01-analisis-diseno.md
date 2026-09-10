@@ -70,4 +70,4 @@ quien debe realizar las operaciones de llenado, vaciado, etc.
 |  | lecturaActual        | Numerico     | Devuelve valor obtenido | Devuelve el nivel actual en lts del tanque                                                               |
 
 ## 6 Diagrama UML
-
+Aquí va el diagrama del repositorio
