@@ -72,5 +72,6 @@ quien debe realizar las operaciones de llenado, vaciado, etc.
 ## 6 Diagrama UML
 Aquí va el diagrama del repositorio
 Aquí va el otro diagrama
+<img width="1312" height="3335" alt="diagramaUMLSistemaMonitoreo" src="https://github.com/user-attachments/assets/ab02c30f-b698-4b55-addd-97178d5ee734" />
 
 ![DiagramaUML](images/diagramaUMLSistemaMonitoreo.png)
