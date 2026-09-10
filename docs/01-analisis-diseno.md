@@ -18,7 +18,8 @@
 - ID  
 - Capacidad máxima (lt)  
 - Nivel actual (lt)  
-- Un estado de operación   
+- Un estado de operación
+
 5.- Los estados de operación serán: DETENIDO, LLENADO, VACIANDO  
 6.- Las operaciones -function members- (que realiza cada tanque) son:
 - consultar información
@@ -27,5 +28,6 @@
 - detener su operación
 - consultar su nivel
 - consultar su porcentaje de llenado
-- obtener una lectura mediante un sensor de nivel
+- obtener una lectura mediante un sensor de nivel  
+
 7.- Considerar las reglas:  nivelActual >=0   nivelActual <=capacidadMaxima estas reglas se deben considerar para cuando se este llenando, vaciando un tanque.
